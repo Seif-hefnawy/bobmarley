@@ -1,7 +1,7 @@
 import { site } from "@/data/site";
 import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
 
-export default function Hero() {
+export default function Hero() { 
   const lines = site.hero.heading.split("\n");
   
 
@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <ImagePlaceholder
           src={site.hero.image}
-          alt=""
+          alt="hero"
           priority
           sizes="100vw"
           className="object-[77%_50%] md:object-center"
