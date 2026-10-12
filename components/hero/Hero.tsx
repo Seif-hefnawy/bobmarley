@@ -3,7 +3,7 @@ import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
 
 export default function Hero() {
   const lines = site.hero.heading.split("\n");
-  const firstHours = site.location.hours[0];
+  
 
   return (
     <section
