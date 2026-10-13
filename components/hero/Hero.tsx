@@ -1,7 +1,7 @@
 import { site } from "@/data/site";
 import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
 
-export default function Hero() { 
+export default function Hero() {
   const lines = site.hero.heading.split("\n");
   
 
