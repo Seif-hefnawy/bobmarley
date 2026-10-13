@@ -64,7 +64,7 @@ export const menuCategories: MenuCategory[] = [
     ] }],
   },
   {
-    id: "nan-coffee",
+    id: "none-coffee",
     label: "Signature",
     groups: [{ title: "Nan Coffee", items: [
       { name: "Tea", price: "65 EGP", image: "/images/last/tea.jpg" },
