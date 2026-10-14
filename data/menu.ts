@@ -88,7 +88,7 @@ export const menuCategories: MenuCategory[] = [
     id: "specialty-coffee",
     label: "Specialty Coffee",
     groups: [{ title: "Specialty Coffee", items: [
-      { name: "V60", price: "10 EGP", image: "/images/last/v60.jpg" },
+      { name: "V60", price: "110 EGP", image: "/images/last/v60.jpg" },
       { name: "Chemex", price: "170 EGP", image: "/images/last/v60.jpg" },
       { name: "Cold Brew", price: "170 EGP", image: "/images/last/v60.jpg" },
       { name: "siphon", price: "170 EGP", image: "/images/last/v60.jpg" },
