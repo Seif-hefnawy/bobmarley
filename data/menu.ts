@@ -56,6 +56,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Ice Americano", price: "140 EGP", image: "/images/last/iceamricano.jpg" },
       { name: "Ice Spanish Latte", price: "160 EGP", image: "/images/last/icecoffe.jpg" },
       { name: "Ice White&Dark Mocca", price: "165 EGP", image: "/images/last/icecoffe.jpg" },
+      { name: "Ice White Mocca Shikar", price: "165 EGP", image: "/images/last/shik.jpg" },
       { name: "Ice Caramel Maccato", price: "170 EGP", image: "/images/last/carlatte.jpg" },
       { name: "Ice Pistachio Latte ", price: "170 EGP", image: "/images/last/pslatte.jpg" },
       { name: "Ice Creme Brulee ", price: "160 EGP", image: "/images/last/carlatte.jpg" },
@@ -66,7 +67,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "none-coffee",
     label: "Signature",
-    groups: [{ title: "Nan Coffee", items: [
+    groups: [{ title: "Tea & More", items: [
       { name: "Tea", price: "65 EGP", image: "/images/last/tea.jpg" },
       { name: "Green Tea", price: "65 EGP", image: "/images/last/greentea.jpg" },
       { name: "Hot Chocolate Classic", price: "110 EGP", image: "/images/last/hott.jpg" },
@@ -144,7 +145,7 @@ export const menuCategories: MenuCategory[] = [
         { name: "Ice Strawberry Matcha", price: "185 EGP", image: "/images/last/strma.jpg" },
         { name: "Ice Matcha", price: "180 EGP", image: "/images/last/icema.jpg" },
         { name: "Hot Matcha", price: "160 EGP", image: "/images/last/hotma.jpg" },
-        { name: "Ice Mango Matcha", price: "185 EGP", image: "/images/last/manma.jpg" },
+        { name: "Ice Mango Matcha", price: "185 EGP", image: "/images/last/manma.jpg"  },
         { name: "Ice Spanish Matcha", price: "185 EGP", image: "/images/last/spanishm.jpg" },
         { name: "Ice Blueberry Matcha", price: "160 EGP", image: "/images/last/berym.jpg" },
         { name: "Ice White Matcha", price: "160 EGP", image: "/images/last/whitema.jpg" },
@@ -166,6 +167,33 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "dessert-soft-drink",
     label: "Dessert & Soft Drink",
-    groups: [{ title: "Dessert & Soft Drink", items: [] }],
+    groups: [{ title: "Dessert", items: [
+      { name: "San Sebastian", price: "170 EGP", image: "/images/last/san.jpg" },
+      { name: "Dark chocolate fudge", price: "160 EGP", image: "/images/last/choc.jpg" },
+      { name: "Melfeh", price: "190 EGP", image: "/images/last/melf.jpg" },
+      { name: "Eclair", price: "140 EGP", image: "/images/last/ecler.jpg" },
+      { name: "Honey Cake", price: "160 EGP", image: "/images/last/honey.jpg" },
+      { name: "Carrot Cake", price: "150 EGP", image: "/images/last/carot.jpg" },
+      { name: "Brownies", price: "120 EGP", image: "/images/last/borw.jpg" },
+      { name: "English Cake", price: "100 EGP", image: "/images/last/eng.jpg" },
+    ] },
+   {title: "Soft Drink", items: [
+    { name: "Can", price: " EGP 50 ", image: "/images/last/soft.jpg" , description:"Pepsi  ,7up  ,Vcola  ,Fayrouz  ,Sshweppes " },
+    { name: "Redbull", price: "100 EGP", image: "/images/last/redbull.jpg" },
+    { name: "Water", price: "20 EGP", image: "/images/last/water.jpg" },
+
+   ]},
+  ],
   },
+
+  {
+  id: "Shiha",
+  label: "Shisha",
+  groups: [{ title: "Shisha", items: [
+    { name: "Shisha Fruit", price: "200 EGP", image: "/images/last/shish.jpg" },
+    { name: "Shisha maasel", price: "110 EGP", image: "/images/last/shish.jpg" },
+    { name: "Lay Shisha", price: "30 EGP", image: "/images/last/lay.jpg" },
+
+  ] }],
+},
 ];
